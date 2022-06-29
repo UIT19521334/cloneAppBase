@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="5dp"
+    android:orientation="vertical"
+    android:id="@+id/item_ticket_row"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp"
+        android:paddingHorizontal="3dp"
+        >
+        <TextView
+            android:id="@+id/txt_ticket_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:text="ajhs d asd a s da sd sd  sd as d as da sd a sd asd as d as d as da sd a sd as d as d as d as d as d as d as da s da sd a sd as d as d as d as d as da sd a sd as d as d as da sd  asd a sd a s"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="6dp"
+        android:gravity="center_vertical"
+        android:id="@+id/view_category_ticket"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flag"
+            android:tint="#858585"
+            android:scaleY="0.7"
+            android:scaleX="0.7"
+            tools:ignore="UseAppTint" />
+        <TextView
+            android:id="@+id/txt_ticket_category"
+            android:paddingLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textColor="#333333"
+            android:textSize="12dp"
+            android:text="ajhs d asd a s da sd sd  sd as d as da sd a sd asd as d as d as da sd a sd as d as d as d as d as d as d as da s da sd a sd as d as d as d as d as da sd a sd as d as d as da sd  asd a sd a s"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="6dp"
+        android:gravity="center_vertical"
+        android:id="@+id/view_priority_ticket"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sort_amount_down_alt"
+            android:tint="#858585"
+            android:scaleY="0.7"
+            android:scaleX="0.7"
+            />
+        <TextView
+            android:id="@+id/txt_ticket_priority"
+            android:paddingLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textColor="#333333"
+            android:textSize="12dp"
+            android:text="ajhs d asd a s da sd sd  sd as d as da sd a sd asd as d as d as da sd a sd as d as d as d as d as d as d as da s da sd a sd as d as d as d as d as da sd a sd as d as d as da sd  asd a sd a s"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="6dp"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_time"
+            android:scaleY="0.8"
+            android:scaleX="0.8"
+            />
+        <TextView
+            android:id="@+id/txt_ticket_time"
+            android:paddingLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:textColor="@color/gray"
+            android:ellipsize="middle"
+            android:text="ajhs d asd a s da sd sd  sd as d as da sd a sd asd as d as d as da sd a sd as d as d as d as d as d as d as da s da sd a sd as d as d as d as d as da sd a sd as d as d as da sd  asd a sd a s"
+            />
+    </LinearLayout>
+
+</LinearLayout>

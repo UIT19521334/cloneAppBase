@@ -1,0 +1,6 @@
+module Pods_CloudProSalesApp {
+  umbrella header "Pods-CloudProSalesApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

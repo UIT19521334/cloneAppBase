@@ -1,0 +1,32 @@
+{
+  "appName": "CloudPro CRM",
+  "appVersion": {
+    "android": "v3.1.7",
+    "ios": "v3.1.7"
+  },
+  "appVersionCode": {
+    "android": "317",
+    "ios": "317"
+  },
+  "appMode": "prod",
+  "dev": {
+    "serverUrl": "https://dev.cloudpro.vn"
+  },
+  "beta": {
+    "serverUrl": "http://demo.cloudpro.vn"
+  },
+  "prod": {
+    "serverUrl": "https://crm.cloudpro.vn"
+  },
+  "apiUrl": "/api/SalesAppApi.php",
+  "pingUrl": "/robots.txt",
+  "localAdmin": {
+    "username": "it",
+    "password": "it"
+  },
+  "apiKey": "c505eb1d7a28c72632465526453aa1a0",
+  "apiKeyGoogleMapIOS": "AIzaSyBCi9CKOs-2OerdPq1INUaESQLueOHj0Tw",
+  "apiKeyGoogleMapAndroid": "AIzaSyCrv0NaokFm2pRcyT-T1M0_ON0ri5dy_NI",
+  "apiKeyGoogleMap": "AIzaSyDH6N6Edvq2TZ4qnMdJqkqbiv8JHXCMHzg",
+  "crmVersionCode": "7.1.0.20210928.1800"
+}

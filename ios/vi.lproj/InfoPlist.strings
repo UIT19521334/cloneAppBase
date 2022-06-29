@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  CloudProSalesApp
+
+  Created by Margosh Le on 01/02/2021.
+  
+*/
+"NSCameraUsageDescription" = "CloudproCRM cần quyền truy cập vào máy ảnh để quét mã QR hoặc chụp ảnh làm hình đại diện.";
+"NSLocationAlwaysUsageDescription" = "CloudproCRM cần quyền truy cập vào vị trí để định vị địa lý khi bạn checkin.";
+"NSLocationWhenInUseUsageDescription" = "CloudproCRM cần quyền truy cập vào vị trí để định vị địa lý khi bạn checkin.";
+"NSMicrophoneUsageDescription" = "CloudproCRM cần quyền truy cập vào micrô để quay video.";
+"NSPhotoLibraryAddUsageDescription" = "CloudproCRM cần quyền truy cập vào thư viện ảnh để lưu ảnh về máy.";
+"NSPhotoLibraryUsageDescription" = "CloudproCRM cần quyền truy cập vào thư viện ảnh của bạn để lấy hình đại diện của bạn.";
+"NSContactsUsageDescription" = "CloudproCRM cần quyền truy cập vào địa chỉ liên hệ của bạn để đồng bộ hóa thông tin khách hàng của bạn lên hệ thống của bạn và chiều ngược lại.";

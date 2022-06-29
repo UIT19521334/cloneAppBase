@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CloneAppBase</string>
+    <string name="facebook_app_id">369930513749806</string>
+    <string name="fb_login_protocol_scheme">fb369930513749806</string>
+    <string name="api_key">AIzaSyCrv0NaokFm2pRcyT-T1M0_ON0ri5dy_NI</string>
+    <string name="decline">Từ chối</string>
+    <string name="appwidget_incoming_activity_name">Hoạt động sắp tới</string>
+    <string name="add_widget">Thêm tiện ích</string>
+    <string name="accept">Chấp nhận</string>
+    <string name="app_widget_incoming_activity_description">Các công việc bạn đã lên kế hoạch trong 7 ngày tới</string>
+    <string name="label_upcoming_activity_is_empty">Chưa ghi nhận bất kỳ thông tin hoạt động sắp tới nào.</string>
+    <string name="btn_call">Cuộc gọi</string>
+    <string name="btn_meeting">Cuộc họp</string>
+    <string name="btn_task">Công việc</string>
+    <string name="label_last_updated">Cập nhật tại </string>
+    <string name="appwidget_activity_quick_actions">Tạo nhanh hoạt động</string>
+    <string name="msg_login_to_view_incoming_activity">Vui lòng đăng nhập để xem thông tin công việc.</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="appwidget_ticket_waiting_process_title">Ticket chờ xử lý</string>
+    <string name="configure_widget_processing_ticket">Cấu hình Ticket chờ xử lý</string>
+    <string name="app_widget_ticket_waiting_process_description">Xem các sự vụ cần xử lý của bạn hoặc nhân viên.</string>
+    <string name="filter_increase_label">Tăng dần</string>
+    <string name="filter_decrease_label">Giảm dần</string>
+    <string name="filter_by_mine_label">Của tôi</string>
+    <string name="filter_by_all_label">Tất cả</string>
+    <string name="label_processing_ticket_is_empty">Chưa ghi nhận bất kỳ thông tin ticket cần xử lý.</string>
+    <string name="msg_login_to_view_processing_ticket">Vui lòng đăng nhập để xem thông tin ticket cần xử lý.</string>
+    <string name="label_create_date">Ngày tạo</string>
+    <string name="label_priority">Độ ưu tiên</string>
+    <string name="label_filter_by">Lọc dữ liệu</string>
+    <string name="configure_widget_processing_ticket_note">Nếu muốn thay đổi cấu hình đã chọn, vui lòng xoá tiện ích đi và khởi tạo lại.</string>
+
+</resources>

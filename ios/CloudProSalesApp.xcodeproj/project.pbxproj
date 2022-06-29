@@ -1,0 +1,1362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0274C4922512501400F7C4C5 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0274C4912512501400F7C4C5 /* fontello.ttf */; };
+		0E88D448937C83B63D180950 /* libPods-CloudProSalesApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8E48C3DE66DA43FC27C7DB /* libPods-CloudProSalesApp.a */; };
+		1202BC4F27619E8E00E6C7BC /* WidgetsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202BC4E27619E8E00E6C7BC /* WidgetsHelper.swift */; };
+		1202BC522761A79400E6C7BC /* WidgetsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1202BC512761A79400E6C7BC /* WidgetsHelper.m */; };
+		120677AD273A0CDA004AB01B /* CloudproClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120677AC273A0CDA004AB01B /* CloudproClient.swift */; };
+		120677AE273A0CDA004AB01B /* CloudproClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120677AC273A0CDA004AB01B /* CloudproClient.swift */; };
+		120677B0273A0CEF004AB01B /* CloudproModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120677AF273A0CEF004AB01B /* CloudproModel.swift */; };
+		120677B1273A0CEF004AB01B /* CloudproModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120677AF273A0CEF004AB01B /* CloudproModel.swift */; };
+		1208D7BC28573FF20013E9F8 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1208D7BB28573FF20013E9F8 /* Notifications.swift */; };
+		1209D33C275EF4A7000453BB /* CloudproCRMWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1209D33F275EF4A7000453BB /* CloudproCRMWidgets.intentdefinition */; };
+		1209D33D275EF4A7000453BB /* CloudproCRMWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1209D33F275EF4A7000453BB /* CloudproCRMWidgets.intentdefinition */; };
+		120E89B527FD2AB200BFB84B /* IncomingActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120E89B427FD2AB200BFB84B /* IncomingActivityWidget.swift */; };
+		121406322739390300769875 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121406312739390300769875 /* WidgetKit.framework */; };
+		121406342739390300769875 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121406332739390300769875 /* SwiftUI.framework */; };
+		121406372739390300769875 /* CloudproCRMWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121406362739390300769875 /* CloudproCRMWidgets.swift */; };
+		1214063A2739390500769875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121406392739390500769875 /* Assets.xcassets */; };
+		121406402739390500769875 /* CloudproCRMWidgetsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 121406302739390300769875 /* CloudproCRMWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12226499286466E700BE1EBD /* CommunicationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12226498286466E700BE1EBD /* CommunicationsHelper.swift */; };
+		1222649B286466F400BE1EBD /* CommunicationsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1222649A286466F400BE1EBD /* CommunicationsHelper.m */; };
+		122D316627ECEDAD00F22242 /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 122D316527ECEDAD00F22242 /* ringtone.mp3 */; };
+		12453D3727BA133A00090E80 /* LargeActivityIncoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12453D3627BA133A00090E80 /* LargeActivityIncoming.swift */; };
+		12453D3A27BA38AA00090E80 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12453D3827BA38AA00090E80 /* RemoteImageView.swift */; };
+		1248DE1A25C7958000B50620 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1248DE1C25C7958000B50620 /* InfoPlist.strings */; };
+		1258173527FFF46300F241B0 /* Flexible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258173427FFF46300F241B0 /* Flexible.swift */; };
+		1261E2DA2865AB0D00489E61 /* notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1261E2D92865AB0D00489E61 /* notification.mp3 */; };
+		126D758A27FD4611001C8DBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12B4D99E27BBAB2C00E62B79 /* Localizable.strings */; };
+		126D758D27FD4AFC001C8DBA /* QuickCreacteActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126D758C27FD4AFC001C8DBA /* QuickCreacteActivityWidget.swift */; };
+		127F89072738FA6F00D18C22 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127F89062738FA6F00D18C22 /* File.swift */; };
+		128B880726749A0F005EC23B /* RCTPlaceIDModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 128B880626749A0F005EC23B /* RCTPlaceIDModule.m */; };
+		12A4F8EB27FE88ED00BB8142 /* TicketWaitProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A4F8EA27FE88ED00BB8142 /* TicketWaitProcess.swift */; };
+		12A4F8EF27FECF1C00BB8142 /* TicketItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A4F8EE27FECF1C00BB8142 /* TicketItemList.swift */; };
+		12B3D2D9280684C300307079 /* CustomPushPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B3D2D8280684C300307079 /* CustomPushPayload.m */; };
+		12B4D99927BBA38D00E62B79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1248DE1C25C7958000B50620 /* InfoPlist.strings */; };
+		12B4D99C27BBAB2C00E62B79 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12B4D99E27BBAB2C00E62B79 /* Localizable.strings */; };
+		12BE616E265F47BB00C507AA /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 12BE616D265F47BB00C507AA /* main.jsbundle */; };
+		12D1F19E281A778300BEFFCF /* FirebaseAppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D1F19D281A778300BEFFCF /* FirebaseAppHelper.m */; };
+		12D1F1A0281A779300BEFFCF /* FirebaseAppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D1F19F281A779200BEFFCF /* FirebaseAppHelper.swift */; };
+		12D1F1A1281AA1D900BEFFCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0214850E2525C36000ECA61A /* GoogleService-Info.plist */; };
+		12D6BC2427B5188E00533521 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6BC2327B5188E00533521 /* SessionStore.swift */; };
+		12D6BC2527B5188E00533521 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6BC2327B5188E00533521 /* SessionStore.swift */; };
+		12D6BC2827B5198D00533521 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6BC2727B5198D00533521 /* Commons.swift */; };
+		12D6BC2927B5198D00533521 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6BC2727B5198D00533521 /* Commons.swift */; };
+		12D6BD2E27FD9F2A00E3992F /* EmptyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6BD2D27FD9F2A00E3992F /* EmptyList.swift */; };
+		12D6BD3027FD9F6100E3992F /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6BD2F27FD9F6100E3992F /* Credential.swift */; };
+		12D6BD3227FD9FF600E3992F /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6BD3127FD9FF600E3992F /* ItemListView.swift */; };
+		12DCD6B027D0B8FF005FF79A /* GeocodingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DCD6AF27D0B8FF005FF79A /* GeocodingHelper.m */; };
+		12DCD6B527D0CD0F005FF79A /* GeocodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCD6B427D0CD0F005FF79A /* GeocodingHelper.swift */; };
+		12EAB437278E92D200D27722 /* LinkPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EAB42D278E861200D27722 /* LinkPresentation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		12FD3B58285840EF00660F36 /* NotifyitemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD3B57285840EF00660F36 /* NotifyitemList.swift */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1BD7CBDA252EAE96003114BF /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD7CBD9252EAE96003114BF /* splash.png */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1214063E2739390500769875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1214062F2739390300769875;
+			remoteInfo = CloudproCRMWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		121406412739390500769875 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				121406402739390500769875 /* CloudproCRMWidgetsExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CloudProSalesAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudProSalesAppTests.m; sourceTree = "<group>"; };
+		0184D6038AE7430482E49EC0 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		0214850E2525C36000ECA61A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0274C4912512501400F7C4C5 /* fontello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontello.ttf; sourceTree = "<group>"; };
+		02D27EE02525700200D01D00 /* CloudPro CRM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "CloudPro CRM.entitlements"; path = "CloudProSalesApp/CloudPro CRM.entitlements"; sourceTree = "<group>"; };
+		03A0F4D049444CD28EFE93F4 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		0B80D410741F42909CEF1BC0 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		1202BC4C27619D4E00E6C7BC /* CloudproCRMWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudproCRMWidgetsExtension.entitlements; sourceTree = "<group>"; };
+		1202BC4E27619E8E00E6C7BC /* WidgetsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsHelper.swift; sourceTree = "<group>"; };
+		1202BC512761A79400E6C7BC /* WidgetsHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WidgetsHelper.m; sourceTree = "<group>"; };
+		120677AC273A0CDA004AB01B /* CloudproClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudproClient.swift; sourceTree = "<group>"; };
+		120677AF273A0CEF004AB01B /* CloudproModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudproModel.swift; sourceTree = "<group>"; };
+		1208D7BB28573FF20013E9F8 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		1209D33E275EF4A7000453BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/CloudproCRMWidgets.intentdefinition; sourceTree = "<group>"; };
+		120E89B427FD2AB200BFB84B /* IncomingActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingActivityWidget.swift; sourceTree = "<group>"; };
+		121406302739390300769875 /* CloudproCRMWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CloudproCRMWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		121406312739390300769875 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		121406332739390300769875 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		121406362739390300769875 /* CloudproCRMWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudproCRMWidgets.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		121406392739390500769875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1214063B2739390500769875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12226498286466E700BE1EBD /* CommunicationsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationsHelper.swift; sourceTree = "<group>"; };
+		1222649A286466F400BE1EBD /* CommunicationsHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunicationsHelper.m; sourceTree = "<group>"; };
+		122D316327ECE9A900F22242 /* notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = notification.mp3; path = ../android/app/src/main/res/raw/notification.mp3; sourceTree = "<group>"; };
+		122D316527ECEDAD00F22242 /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ringtone.mp3; path = ../android/app/src/main/res/raw/ringtone.mp3; sourceTree = "<group>"; };
+		12453D3627BA133A00090E80 /* LargeActivityIncoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeActivityIncoming.swift; sourceTree = "<group>"; };
+		12453D3827BA38AA00090E80 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		1248DE1B25C7958000B50620 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1248DE2125C7958700B50620 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1258173427FFF46300F241B0 /* Flexible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexible.swift; sourceTree = "<group>"; };
+		1261E2D6286593D000489E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CloudproCRMWidgets.strings; sourceTree = "<group>"; };
+		1261E2D8286593D600489E61 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/CloudproCRMWidgets.strings; sourceTree = "<group>"; };
+		1261E2D92865AB0D00489E61 /* notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = notification.mp3; path = ../src/assets/raw/notification.mp3; sourceTree = "<group>"; };
+		126D758C27FD4AFC001C8DBA /* QuickCreacteActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuickCreacteActivityWidget.swift; path = ../../../../../../WIDEGTAPP/WidgetAppExample/WidgetAppExample/QuickCreacteActivityWidget.swift; sourceTree = "<group>"; };
+		127F89052738FA6E00D18C22 /* CloudProSalesApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudProSalesApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		127F89062738FA6F00D18C22 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		128B8805267499FA005EC23B /* RCTPlaceIDModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTPlaceIDModule.h; sourceTree = "<group>"; };
+		128B880626749A0F005EC23B /* RCTPlaceIDModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPlaceIDModule.m; path = "../New Group/RCTPlaceIDModule.m"; sourceTree = "<group>"; };
+		12A4F8EA27FE88ED00BB8142 /* TicketWaitProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketWaitProcess.swift; sourceTree = "<group>"; };
+		12A4F8EE27FECF1C00BB8142 /* TicketItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketItemList.swift; sourceTree = "<group>"; };
+		12B3D2D7280684B300307079 /* CustomPushPayload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPushPayload.h; sourceTree = "<group>"; };
+		12B3D2D8280684C300307079 /* CustomPushPayload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPushPayload.m; sourceTree = "<group>"; };
+		12B4D99D27BBAB2C00E62B79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		12B4D9A027BBAB3000E62B79 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		12BE616D265F47BB00C507AA /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		12D1F19D281A778300BEFFCF /* FirebaseAppHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirebaseAppHelper.m; sourceTree = "<group>"; };
+		12D1F19F281A779200BEFFCF /* FirebaseAppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAppHelper.swift; sourceTree = "<group>"; };
+		12D6BC2327B5188E00533521 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		12D6BC2727B5198D00533521 /* Commons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		12D6BD2D27FD9F2A00E3992F /* EmptyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyList.swift; sourceTree = "<group>"; };
+		12D6BD2F27FD9F6100E3992F /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		12D6BD3127FD9FF600E3992F /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		12DCD6AF27D0B8FF005FF79A /* GeocodingHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeocodingHelper.m; sourceTree = "<group>"; };
+		12DCD6B427D0CD0F005FF79A /* GeocodingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingHelper.swift; sourceTree = "<group>"; };
+		12EAB42D278E861200D27722 /* LinkPresentation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkPresentation.framework; path = System/Library/Frameworks/LinkPresentation.framework; sourceTree = SDKROOT; };
+		12FD3B57285840EF00660F36 /* NotifyitemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyitemList.swift; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CloudPro CRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CloudPro CRM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CloudProSalesApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CloudProSalesApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CloudProSalesApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CloudProSalesApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CloudProSalesApp/main.m; sourceTree = "<group>"; };
+		1BD7CBD9252EAE96003114BF /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		1E58DFC29332460D8E01C8F5 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		1EB2B8E43A34C3336E985DD4 /* Pods-CloudProSalesApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudProSalesApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CloudProSalesApp-tvOSTests/Pods-CloudProSalesApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F6A598EBD094DDD9674FBF0 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		21F9C3A674104D93908B49D9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		2351805086A64A249DD6C6B0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		2569DBD3555E7CF6D02AF7F5 /* libPods-CloudProSalesApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudProSalesApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE6EC1FC1EB0B2887C206D5 /* Pods-CloudProSalesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudProSalesApp.debug.xcconfig"; path = "Target Support Files/Pods-CloudProSalesApp/Pods-CloudProSalesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3130B4D8FD294E0591C5B9A4 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		364CDCA202D5488FB827103D /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		37F23CC3AAB34DC6A2A1BB25 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		3D7900403E694FBD885DF821 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		43339C6D9CB14E999CF6B31B /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		47BF00D09DE6459BB9464573 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		48D32E18E6C24C6F9488D81E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		4FC2D85BABF2708412FD9AB7 /* libPods-CloudProSalesApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudProSalesApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50103D8A93704775AB0FC814 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		51E05151BE48769006F35BF6 /* Pods-CloudProSalesApp-CloudProSalesAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudProSalesApp-CloudProSalesAppTests.release.xcconfig"; path = "Target Support Files/Pods-CloudProSalesApp-CloudProSalesAppTests/Pods-CloudProSalesApp-CloudProSalesAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		531460E706F2A9F4A336899E /* Pods-CloudProSalesApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudProSalesApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CloudProSalesApp-tvOS/Pods-CloudProSalesApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5ADCAEF0B4771492F22B5B86 /* Pods-CloudProSalesApp-CloudProSalesAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudProSalesApp-CloudProSalesAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CloudProSalesApp-CloudProSalesAppTests/Pods-CloudProSalesApp-CloudProSalesAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CC63C719D3B402982CB1A1C /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		60D7405AA0834017A6D0FBD0 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		6927FFD68B296513A917CE3B /* Pods-CloudProSalesApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudProSalesApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CloudProSalesApp-tvOSTests/Pods-CloudProSalesApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		73455BE507534CEEA6B216C2 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		7A58246F6B63D3D85C59F3B5 /* libPods-CloudProSalesApp-CloudProSalesAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudProSalesApp-CloudProSalesAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1841A2D79F4680AB7C0F4D /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CloudProSalesApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B6D55E1215C4FC1BB47ED08 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		9921D5A9DAA94D6989DC450F /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		9BF94724397B4D4DB8762B2D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		9EECE09C9660498F8DF72595 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		A9E7892FE2DF40ADBED9468B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		B5A5302A2D1E42B8BFF752BA /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		B79DD665716F7958546C004C /* Pods-CloudProSalesApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudProSalesApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CloudProSalesApp-tvOS/Pods-CloudProSalesApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F466EA48924B8E8F0F3762 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		BA2071C655124B1197115C9B /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		D06344DABC9747CEB88C07D0 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		D8277B1ED524479E8FFF9BAB /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		DA0B0D7647FB446598FBA849 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		DA3F76253386495CA11CA0AE /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		E3E29EAC4B134C718A328B63 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		E6603A4E32464C7898D5A9B9 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		E6825C34A79D4A43939937FE /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EE8E48C3DE66DA43FC27C7DB /* libPods-CloudProSalesApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudProSalesApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F164FB76F40A4371B25EC1FF /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		F7B296D59E3E626B8488F5AA /* Pods-CloudProSalesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudProSalesApp.release.xcconfig"; path = "Target Support Files/Pods-CloudProSalesApp/Pods-CloudProSalesApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1214062D2739390300769875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121406342739390300769875 /* SwiftUI.framework in Frameworks */,
+				121406322739390300769875 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EAB437278E92D200D27722 /* LinkPresentation.framework in Frameworks */,
+				0E88D448937C83B63D180950 /* libPods-CloudProSalesApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CloudProSalesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CloudProSalesAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CloudProSalesAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1202BC4D27619E7000E6C7BC /* WidgetsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1202BC4E27619E8E00E6C7BC /* WidgetsHelper.swift */,
+				1202BC512761A79400E6C7BC /* WidgetsHelper.m */,
+			);
+			path = WidgetsHelper;
+			sourceTree = "<group>";
+		};
+		120677AB273A0CB8004AB01B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				120677AC273A0CDA004AB01B /* CloudproClient.swift */,
+				120677AF273A0CEF004AB01B /* CloudproModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		120E89B327FD2A9300BFB84B /* IncomingActivity */ = {
+			isa = PBXGroup;
+			children = (
+				120E89B427FD2AB200BFB84B /* IncomingActivityWidget.swift */,
+			);
+			path = IncomingActivity;
+			sourceTree = "<group>";
+		};
+		121406352739390300769875 /* CloudproCRMWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				129019A7283E320900B641C0 /* Notifications */,
+				12A4F8E927FE88C200BB8142 /* TicketWaitProcess */,
+				126D758B27FD4AA5001C8DBA /* QuickCreateActivity */,
+				120E89B327FD2A9300BFB84B /* IncomingActivity */,
+				12453D3527BA0F7500090E80 /* WidgetComponents */,
+				121406362739390300769875 /* CloudproCRMWidgets.swift */,
+				1209D33F275EF4A7000453BB /* CloudproCRMWidgets.intentdefinition */,
+				121406392739390500769875 /* Assets.xcassets */,
+				1214063B2739390500769875 /* Info.plist */,
+			);
+			path = CloudproCRMWidgets;
+			sourceTree = "<group>";
+		};
+		12226497286466C000BE1EBD /* CommunicationsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				12226498286466E700BE1EBD /* CommunicationsHelper.swift */,
+				1222649A286466F400BE1EBD /* CommunicationsHelper.m */,
+			);
+			path = CommunicationsHelper;
+			sourceTree = "<group>";
+		};
+		12453D3527BA0F7500090E80 /* WidgetComponents */ = {
+			isa = PBXGroup;
+			children = (
+				12453D3627BA133A00090E80 /* LargeActivityIncoming.swift */,
+				12D6BD2D27FD9F2A00E3992F /* EmptyList.swift */,
+				12D6BD2F27FD9F6100E3992F /* Credential.swift */,
+				12D6BD3127FD9FF600E3992F /* ItemListView.swift */,
+				12A4F8EE27FECF1C00BB8142 /* TicketItemList.swift */,
+				1258173427FFF46300F241B0 /* Flexible.swift */,
+				12FD3B57285840EF00660F36 /* NotifyitemList.swift */,
+			);
+			path = WidgetComponents;
+			sourceTree = "<group>";
+		};
+		126D758B27FD4AA5001C8DBA /* QuickCreateActivity */ = {
+			isa = PBXGroup;
+			children = (
+				126D758C27FD4AFC001C8DBA /* QuickCreacteActivityWidget.swift */,
+			);
+			path = QuickCreateActivity;
+			sourceTree = "<group>";
+		};
+		129019A7283E320900B641C0 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1208D7BB28573FF20013E9F8 /* Notifications.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		12A4F8E927FE88C200BB8142 /* TicketWaitProcess */ = {
+			isa = PBXGroup;
+			children = (
+				12A4F8EA27FE88ED00BB8142 /* TicketWaitProcess.swift */,
+			);
+			path = TicketWaitProcess;
+			sourceTree = "<group>";
+		};
+		12A6454127A143C500CF9880 /* NativeModules */ = {
+			isa = PBXGroup;
+			children = (
+				12226497286466C000BE1EBD /* CommunicationsHelper */,
+				12D1F19C281A774A00BEFFCF /* FirebaseAppHelper */,
+				12DCD6AE27D0B8CC005FF79A /* GeocodingHelper */,
+				12A6454227A143E400CF9880 /* PlaceIDHepler */,
+				1202BC4D27619E7000E6C7BC /* WidgetsHelper */,
+			);
+			name = NativeModules;
+			sourceTree = "<group>";
+		};
+		12A6454227A143E400CF9880 /* PlaceIDHepler */ = {
+			isa = PBXGroup;
+			children = (
+				128B8805267499FA005EC23B /* RCTPlaceIDModule.h */,
+				128B880626749A0F005EC23B /* RCTPlaceIDModule.m */,
+			);
+			path = PlaceIDHepler;
+			sourceTree = "<group>";
+		};
+		12B3D2D62806849700307079 /* CustomPayload */ = {
+			isa = PBXGroup;
+			children = (
+				12B3D2D7280684B300307079 /* CustomPushPayload.h */,
+				12B3D2D8280684C300307079 /* CustomPushPayload.m */,
+			);
+			path = CustomPayload;
+			sourceTree = "<group>";
+		};
+		12D1F19C281A774A00BEFFCF /* FirebaseAppHelper */ = {
+			isa = PBXGroup;
+			children = (
+				12D1F19D281A778300BEFFCF /* FirebaseAppHelper.m */,
+				12D1F19F281A779200BEFFCF /* FirebaseAppHelper.swift */,
+			);
+			path = FirebaseAppHelper;
+			sourceTree = "<group>";
+		};
+		12D6BC2227B5186B00533521 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				12D6BC2327B5188E00533521 /* SessionStore.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		12D6BC2627B5193600533521 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				12D6BC2727B5198D00533521 /* Commons.swift */,
+				12453D3827BA38AA00090E80 /* RemoteImageView.swift */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		12DCD6AE27D0B8CC005FF79A /* GeocodingHelper */ = {
+			isa = PBXGroup;
+			children = (
+				12DCD6AF27D0B8FF005FF79A /* GeocodingHelper.m */,
+				12DCD6B427D0CD0F005FF79A /* GeocodingHelper.swift */,
+			);
+			path = GeocodingHelper;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CloudProSalesApp */ = {
+			isa = PBXGroup;
+			children = (
+				12B3D2D62806849700307079 /* CustomPayload */,
+				12B4D99E27BBAB2C00E62B79 /* Localizable.strings */,
+				122D316527ECEDAD00F22242 /* ringtone.mp3 */,
+				122D316327ECE9A900F22242 /* notification.mp3 */,
+				12D6BC2627B5193600533521 /* Commons */,
+				12D6BC2227B5186B00533521 /* Shared */,
+				12A6454127A143C500CF9880 /* NativeModules */,
+				120677AB273A0CB8004AB01B /* Models */,
+				1BD7CBD8252EAE84003114BF /* Image */,
+				02D27EE02525700200D01D00 /* CloudPro CRM.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				0274C4912512501400F7C4C5 /* fontello.ttf */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				1248DE1C25C7958000B50620 /* InfoPlist.strings */,
+				127F89052738FA6E00D18C22 /* CloudProSalesApp-Bridging-Header.h */,
+			);
+			name = CloudProSalesApp;
+			sourceTree = "<group>";
+		};
+		1BD7CBD8252EAE84003114BF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1BD7CBD9252EAE96003114BF /* splash.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		239ABC7597B743FE8D905C41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6603A4E32464C7898D5A9B9 /* AntDesign.ttf */,
+				48D32E18E6C24C6F9488D81E /* Entypo.ttf */,
+				DA0B0D7647FB446598FBA849 /* EvilIcons.ttf */,
+				37F23CC3AAB34DC6A2A1BB25 /* Feather.ttf */,
+				3D7900403E694FBD885DF821 /* FontAwesome.ttf */,
+				03A0F4D049444CD28EFE93F4 /* FontAwesome5_Brands.ttf */,
+				50103D8A93704775AB0FC814 /* FontAwesome5_Regular.ttf */,
+				5CC63C719D3B402982CB1A1C /* FontAwesome5_Solid.ttf */,
+				9921D5A9DAA94D6989DC450F /* Fontisto.ttf */,
+				21F9C3A674104D93908B49D9 /* Foundation.ttf */,
+				0184D6038AE7430482E49EC0 /* Ionicons.ttf */,
+				1F6A598EBD094DDD9674FBF0 /* MaterialCommunityIcons.ttf */,
+				BA2071C655124B1197115C9B /* MaterialIcons.ttf */,
+				D8277B1ED524479E8FFF9BAB /* Octicons.ttf */,
+				DA3F76253386495CA11CA0AE /* SimpleLineIcons.ttf */,
+				1E58DFC29332460D8E01C8F5 /* Zocial.ttf */,
+				F164FB76F40A4371B25EC1FF /* AntDesign.ttf */,
+				B5A5302A2D1E42B8BFF752BA /* Entypo.ttf */,
+				A9E7892FE2DF40ADBED9468B /* EvilIcons.ttf */,
+				E6825C34A79D4A43939937FE /* Feather.ttf */,
+				E3E29EAC4B134C718A328B63 /* FontAwesome.ttf */,
+				47BF00D09DE6459BB9464573 /* FontAwesome5_Brands.ttf */,
+				73455BE507534CEEA6B216C2 /* FontAwesome5_Regular.ttf */,
+				2351805086A64A249DD6C6B0 /* FontAwesome5_Solid.ttf */,
+				43339C6D9CB14E999CF6B31B /* Fontisto.ttf */,
+				364CDCA202D5488FB827103D /* Foundation.ttf */,
+				7F1841A2D79F4680AB7C0F4D /* Ionicons.ttf */,
+				D06344DABC9747CEB88C07D0 /* MaterialCommunityIcons.ttf */,
+				0B80D410741F42909CEF1BC0 /* MaterialIcons.ttf */,
+				3130B4D8FD294E0591C5B9A4 /* Octicons.ttf */,
+				B8F466EA48924B8E8F0F3762 /* Roboto_medium.ttf */,
+				8B6D55E1215C4FC1BB47ED08 /* Roboto.ttf */,
+				9EECE09C9660498F8DF72595 /* rubicon-icon-font.ttf */,
+				9BF94724397B4D4DB8762B2D /* SimpleLineIcons.ttf */,
+				60D7405AA0834017A6D0FBD0 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12EAB42D278E861200D27722 /* LinkPresentation.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				EE8E48C3DE66DA43FC27C7DB /* libPods-CloudProSalesApp.a */,
+				7A58246F6B63D3D85C59F3B5 /* libPods-CloudProSalesApp-CloudProSalesAppTests.a */,
+				2569DBD3555E7CF6D02AF7F5 /* libPods-CloudProSalesApp-tvOS.a */,
+				4FC2D85BABF2708412FD9AB7 /* libPods-CloudProSalesApp-tvOSTests.a */,
+				121406312739390300769875 /* WidgetKit.framework */,
+				121406332739390300769875 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				1261E2D92865AB0D00489E61 /* notification.mp3 */,
+				1202BC4C27619D4E00E6C7BC /* CloudproCRMWidgetsExtension.entitlements */,
+				127F89062738FA6F00D18C22 /* File.swift */,
+				12BE616D265F47BB00C507AA /* main.jsbundle */,
+				0214850E2525C36000ECA61A /* GoogleService-Info.plist */,
+				13B07FAE1A68108700A75B9A /* CloudProSalesApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CloudProSalesAppTests */,
+				121406352739390300769875 /* CloudproCRMWidgets */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				ECCFE9F087A34860364681E7 /* Pods */,
+				239ABC7597B743FE8D905C41 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* CloudPro CRM.app */,
+				121406302739390300769875 /* CloudproCRMWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCFE9F087A34860364681E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6EC1FC1EB0B2887C206D5 /* Pods-CloudProSalesApp.debug.xcconfig */,
+				F7B296D59E3E626B8488F5AA /* Pods-CloudProSalesApp.release.xcconfig */,
+				5ADCAEF0B4771492F22B5B86 /* Pods-CloudProSalesApp-CloudProSalesAppTests.debug.xcconfig */,
+				51E05151BE48769006F35BF6 /* Pods-CloudProSalesApp-CloudProSalesAppTests.release.xcconfig */,
+				B79DD665716F7958546C004C /* Pods-CloudProSalesApp-tvOS.debug.xcconfig */,
+				531460E706F2A9F4A336899E /* Pods-CloudProSalesApp-tvOS.release.xcconfig */,
+				1EB2B8E43A34C3336E985DD4 /* Pods-CloudProSalesApp-tvOSTests.debug.xcconfig */,
+				6927FFD68B296513A917CE3B /* Pods-CloudProSalesApp-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1214062F2739390300769875 /* CloudproCRMWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121406442739390500769875 /* Build configuration list for PBXNativeTarget "CloudproCRMWidgetsExtension" */;
+			buildPhases = (
+				1214062C2739390300769875 /* Sources */,
+				1214062D2739390300769875 /* Frameworks */,
+				1214062E2739390300769875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudproCRMWidgetsExtension;
+			productName = CloudproCRMWidgetsExtension;
+			productReference = 121406302739390300769875 /* CloudproCRMWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		13B07F861A680F5B00A75B9A /* CloudProSalesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CloudProSalesApp" */;
+			buildPhases = (
+				B439971F232E2DEEBB9B34DD /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				AEFD1FFF1EC534C37D2BA353 /* [CP] Copy Pods Resources */,
+				3F0CDEFBCB6A338A04FE1E5F /* [CP-User] [RNFB] Core Configuration */,
+				027776C89048A252905B8F68 /* [CP] Embed Pods Frameworks */,
+				121406412739390500769875 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1214063F2739390500769875 /* PBXTargetDependency */,
+			);
+			name = CloudProSalesApp;
+			productName = CloudProSalesApp;
+			productReference = 13B07F961A680F5B00A75B9A /* CloudPro CRM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1214062F2739390300769875 = {
+						CreatedOnToolsVersion = 13.1;
+						DevelopmentTeam = 9J5WGT6Y89;
+						ProvisioningStyle = Automatic;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 9J5WGT6Y89;
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CloudProSalesApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* CloudProSalesApp */,
+				1214062F2739390300769875 /* CloudproCRMWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1214062E2739390300769875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1214063A2739390500769875 /* Assets.xcassets in Resources */,
+				12B4D99C27BBAB2C00E62B79 /* Localizable.strings in Resources */,
+				12B4D99927BBA38D00E62B79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D1F1A1281AA1D900BEFFCF /* GoogleService-Info.plist in Resources */,
+				12BE616E265F47BB00C507AA /* main.jsbundle in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				1248DE1A25C7958000B50620 /* InfoPlist.strings in Resources */,
+				122D316627ECEDAD00F22242 /* ringtone.mp3 in Resources */,
+				1261E2DA2865AB0D00489E61 /* notification.mp3 in Resources */,
+				126D758A27FD4611001C8DBA /* Localizable.strings in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0274C4922512501400F7C4C5 /* fontello.ttf in Resources */,
+				1BD7CBDA252EAE96003114BF /* splash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nexport NODE_ARGS=--max-old-space-size=8192\nexport NODE_OPTIONS=--max-old-space-size=8192\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		027776C89048A252905B8F68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudProSalesApp/Pods-CloudProSalesApp-frameworks.sh",
+				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudProSalesApp/Pods-CloudProSalesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0CDEFBCB6A338A04FE1E5F /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		AEFD1FFF1EC534C37D2BA353 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudProSalesApp/Pods-CloudProSalesApp-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudProSalesApp/Pods-CloudProSalesApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B439971F232E2DEEBB9B34DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudProSalesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1214062C2739390300769875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1258173527FFF46300F241B0 /* Flexible.swift in Sources */,
+				120677AE273A0CDA004AB01B /* CloudproClient.swift in Sources */,
+				12D6BD3227FD9FF600E3992F /* ItemListView.swift in Sources */,
+				12A4F8EB27FE88ED00BB8142 /* TicketWaitProcess.swift in Sources */,
+				121406372739390300769875 /* CloudproCRMWidgets.swift in Sources */,
+				126D758D27FD4AFC001C8DBA /* QuickCreacteActivityWidget.swift in Sources */,
+				120E89B527FD2AB200BFB84B /* IncomingActivityWidget.swift in Sources */,
+				12D6BC2927B5198D00533521 /* Commons.swift in Sources */,
+				12D6BC2527B5188E00533521 /* SessionStore.swift in Sources */,
+				12FD3B58285840EF00660F36 /* NotifyitemList.swift in Sources */,
+				12453D3727BA133A00090E80 /* LargeActivityIncoming.swift in Sources */,
+				1209D33D275EF4A7000453BB /* CloudproCRMWidgets.intentdefinition in Sources */,
+				12D6BD2E27FD9F2A00E3992F /* EmptyList.swift in Sources */,
+				12453D3A27BA38AA00090E80 /* RemoteImageView.swift in Sources */,
+				1208D7BC28573FF20013E9F8 /* Notifications.swift in Sources */,
+				12D6BD3027FD9F6100E3992F /* Credential.swift in Sources */,
+				12A4F8EF27FECF1C00BB8142 /* TicketItemList.swift in Sources */,
+				120677B1273A0CEF004AB01B /* CloudproModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1222649B286466F400BE1EBD /* CommunicationsHelper.m in Sources */,
+				12D6BC2827B5198D00533521 /* Commons.swift in Sources */,
+				1209D33C275EF4A7000453BB /* CloudproCRMWidgets.intentdefinition in Sources */,
+				120677B0273A0CEF004AB01B /* CloudproModel.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				12D1F1A0281A779300BEFFCF /* FirebaseAppHelper.swift in Sources */,
+				127F89072738FA6F00D18C22 /* File.swift in Sources */,
+				12B3D2D9280684C300307079 /* CustomPushPayload.m in Sources */,
+				12226499286466E700BE1EBD /* CommunicationsHelper.swift in Sources */,
+				128B880726749A0F005EC23B /* RCTPlaceIDModule.m in Sources */,
+				12D1F19E281A778300BEFFCF /* FirebaseAppHelper.m in Sources */,
+				1202BC522761A79400E6C7BC /* WidgetsHelper.m in Sources */,
+				12D6BC2427B5188E00533521 /* SessionStore.swift in Sources */,
+				1202BC4F27619E8E00E6C7BC /* WidgetsHelper.swift in Sources */,
+				120677AD273A0CDA004AB01B /* CloudproClient.swift in Sources */,
+				12DCD6B527D0CD0F005FF79A /* GeocodingHelper.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				12DCD6B027D0B8FF005FF79A /* GeocodingHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1214063F2739390500769875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1214062F2739390300769875 /* CloudproCRMWidgetsExtension */;
+			targetProxy = 1214063E2739390500769875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1209D33F275EF4A7000453BB /* CloudproCRMWidgets.intentdefinition */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1209D33E275EF4A7000453BB /* Base */,
+				1261E2D6286593D000489E61 /* en */,
+				1261E2D8286593D600489E61 /* vi */,
+			);
+			name = CloudproCRMWidgets.intentdefinition;
+			sourceTree = "<group>";
+		};
+		1248DE1C25C7958000B50620 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1248DE1B25C7958000B50620 /* en */,
+				1248DE2125C7958700B50620 /* vi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12B4D99E27BBAB2C00E62B79 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12B4D99D27BBAB2C00E62B79 /* en */,
+				12B4D9A027BBAB3000E62B79 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		121406422739390500769875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = CloudproCRMWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 339;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9J5WGT6Y89;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudproCRMWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CloudproCRMWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.2/$(PLATFORM_NAME)\"",
+				);
+				MARKETING_VERSION = 3.2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.cloudpro.salesapp.CloudproCRMWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		121406432739390500769875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = CloudproCRMWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 339;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9J5WGT6Y89;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudproCRMWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CloudproCRMWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.2/$(PLATFORM_NAME)\"",
+				);
+				MARKETING_VERSION = 3.2.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.cloudpro.salesapp.CloudproCRMWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE6EC1FC1EB0B2887C206D5 /* Pods-CloudProSalesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "CloudProSalesApp/CloudPro CRM.entitlements";
+				CURRENT_PROJECT_VERSION = 339;
+				DEVELOPMENT_TEAM = 9J5WGT6Y89;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseABTesting\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseRemoteConfig\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Camera\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAccuracy\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-MediaLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Microphone\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPushNotificationIOS\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCallKeep\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDateTimePicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBRemoteConfig\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFS\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFileViewer\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNI18n\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNQuickAction\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNShare\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSound\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSoundPlayer\"",
+					"\"${PODS_ROOT}/Headers/Public/RNStringee\"",
+					"\"${PODS_ROOT}/Headers/Public/RNTextSize\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVoipPushNotification\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/TOCropViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/lottie-react-native\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-background-timer\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-blur\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-camera\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-date-picker\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-document-picker\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-in-app-message\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-netinfo\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-orientation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-simple-crypto\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-webview\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = CloudProSalesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.2.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.cloudpro.salesapp;
+				PRODUCT_NAME = "CloudPro CRM";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudProSalesApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B296D59E3E626B8488F5AA /* Pods-CloudProSalesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "CloudProSalesApp/CloudPro CRM.entitlements";
+				CURRENT_PROJECT_VERSION = 339;
+				DEVELOPMENT_TEAM = 9J5WGT6Y89;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseABTesting\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseRemoteConfig\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Camera\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAccuracy\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-MediaLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Microphone\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPushNotificationIOS\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCallKeep\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDateTimePicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBRemoteConfig\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFS\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFileViewer\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNI18n\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNQuickAction\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNShare\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSound\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSoundPlayer\"",
+					"\"${PODS_ROOT}/Headers/Public/RNStringee\"",
+					"\"${PODS_ROOT}/Headers/Public/RNTextSize\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVoipPushNotification\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/TOCropViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/lottie-react-native\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-background-timer\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-blur\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-camera\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-date-picker\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-document-picker\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-in-app-message\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-netinfo\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-orientation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-simple-crypto\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-webview\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = CloudProSalesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.2.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.cloudpro.salesapp;
+				PRODUCT_NAME = "CloudPro CRM";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudProSalesApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		121406442739390500769875 /* Build configuration list for PBXNativeTarget "CloudproCRMWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121406422739390500769875 /* Debug */,
+				121406432739390500769875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CloudProSalesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CloudProSalesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

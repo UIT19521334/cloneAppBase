@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  CloudProSalesApp
+
+  Created by Margosh Le on 01/02/2021.
+  
+*/
+"NSCameraUsageDescription" = "This app needs access to the camera to scan QR codes or take pictures as avatars.";
+"NSLocationAlwaysUsageDescription" = "This app needs access to the location to geolocalize when you make a booking.";
+"NSLocationWhenInUseUsageDescription" = "This app needs access to the location to geolocalize when you make a booking.";
+"NSMicrophoneUsageDescription" = "This app needs access to the microphone to take videos.";
+"NSPhotoLibraryAddUsageDescription" = "This app needs access to the photo library to save photo.";
+"NSPhotoLibraryUsageDescription" = "This app needs access to your photo gallery to get your avatar.";
+"NSContactsUsageDescription" = "Cloudpro CRM needs access to your contacts to sync your customer information to your system and vice versa.";
+

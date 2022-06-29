@@ -1,0 +1,56 @@
+# /* Current not use
+# File: cloudprocrm
+# Author: Margosh Le
+# Date: 2022-04-13
+# Purpose: Script run command to the update code of application on Store
+# Example: ./cloudprocrm codepush:android-release Production 3.2.2
+# P/S: version update must matching with versionName in Android project and version build in IOS project
+#  */ 
+
+if [ "$1" != "" ]; then
+    if [ "$1" == "codepush:ios-release" ]; then
+        if [ "$2" == "" ]; then
+            echo "command incorrect ./cloudprocrm codepush:ios-release <deployment name: Staging or Production> <target version>"
+            exit 1
+        fi
+
+        if [ "$3" == "" ]; then
+           echo "command incorrect ./cloudprocrm codepush:ios-release <deployment name: Staging or Production> <target version>"
+           exit 1
+        fi
+        
+        echo "================= rm -rf codepush ==========="
+        rm -rf codepush
+        echo "================= mkdir codepush ==========="
+        mkdir codepush
+        echo "================= node node_modules/react-native/local-cli/cli.js bundle --platform ios --dev false --entry-file index.js --bundle-output codepush/main.jsbundle --assets-dest codepush ==========="
+        node node_modules/react-native/local-cli/cli.js bundle --platform ios --dev false --entry-file index.js --bundle-output codepush/main.jsbundle --assets-dest codepush
+        echo "================= appcenter codepush release -d $2 -a OnlineCRM/CloudproCRM-IOS -c ./codepush -t $3 ==========="
+        appcenter codepush release -d $2 -a OnlineCRM/CloudproCRM-IOS -c ./codepush -t $3 
+    fi
+
+    if [ "$1" == "codepush:android-release" ]; then
+        if [ "$2" == "" ]; then
+            echo "command incorrect ./cloudprocrm codepush:android-release <deployment name: Staging or Production> <target version>"
+            exit 1
+        fi
+
+        if [ "$3" == "" ]; then
+           echo "command incorrect ./cloudprocrm codepush:android-release <deployment name: Staging or Production> <target version>"
+           exit 1
+        fi
+        
+        echo "================= rm -rf codepush ==========="
+        rm -rf codepush
+        
+        echo "================= mkdir codepush ==========="
+        mkdir codepush
+        
+        echo "================= node node_modules/react-native/local-cli/cli.js bundle --platform android --dev false --entry-file index.js --bundle-output codepush/index.android.bundle --assets-dest codepush ==========="
+        node node_modules/react-native/local-cli/cli.js bundle --platform android --dev false --entry-file index.js --bundle-output codepush/index.android.bundle --assets-dest codepush
+        
+        echo "================= appcenter codepush release -d $2 -a OnlineCRM/CloudproCRM-Android -c ./codepush -t $4 ==========="
+        appcenter codepush release -d $2 -a OnlineCRM/CloudproCRM-Android -c ./codepush -t $3 
+    fi
+    exit 1
+fi

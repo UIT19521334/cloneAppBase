@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  CloudProSalesApp
+
+  Created by Margosh Le on 15/02/2022.
+  
+*/
+"ticket.empty.data" = "Không có dữ liệu!";
+"application.global.search" = "Nhập từ khoá tiềm kiếm";
+"application.activity.call" = "Cuộc gọi";
+"application.activity.meeting" = "Cuộc họp";
+"application.activity.task" = "Công việc";
+"button.signin.label" = "Đăng nhập";
+"button.search.label" = "Tìm kiếm...";
+"incoming.activity.title" = "Hoạt động sắp tới";
+"incoming.activity.description" = "Xem các công việc đã lên kế hoạch trong 7 ngày tới";
+"incoming.activity.empty.label" = "Chưa ghi nhận bất kỳ thông tin hoạt động sắp tới nào.";
+"incoming.activity.login.description" = "Vui lòng đăng nhập để xem thông tin công việc.";
+"processing.ticket.title" = "Ticket chờ xử lý";
+"processing.ticket.description" = "Xem các sự vụ cần xử lý của bạn hoặc nhân viên.";
+"processing.ticket.login.description" = "Vui lòng đăng nhập để xem thông tin sự vụ cần xử lý.";
+"processing.ticket.empty.label" = "Chưa ghi nhận bất kỳ thông tin ticket cần xử lý.";
+"quick.create.activity.title" = "Tạo nhanh hoạt động";
+"quick.create.activity.description" = "Tạo thông tin hoạt động nhanh chóng.";
+"widget.time.update.label" = "Cập nhật tại ";
+"unkown.label" = "Không xác định";
+"notifications.title" = "Thông báo";
+"notifications.description" = "Xem nhanh thông báo mới nhất từ CloudproCRM";
+"notifications.login.description" = "Vui lòng đăng nhập để xem thông báo.";
+"notifications.empty.label" = "Chưa ghi nhận được bất kỳ thông báo nào.";
+"notifications.checkin.title" = "Thông báo Check-in";
+"notifications.checkin.description" = "Xem nhanh thông báo check-in mới nhất từ CloudproCRM";
+"notifications.checkin.login.description" = "Vui lòng đăng nhập để xem thông báo.";
+"notifications.checkin.empty.label" = "Chưa ghi nhận bất kỳ thông báo check-in nào";

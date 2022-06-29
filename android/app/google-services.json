@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "101783008663",
+    "project_id": "cloneappbase",
+    "storage_bucket": "cloneappbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101783008663:android:07e97f64403d13ce1840d2",
+        "android_client_info": {
+          "package_name": "demo.test.appbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101783008663-01mjfjntc6dk01nu9durn3no4mo6olg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeYXuaGkO4sJe2bH3ivueSN-rdgSplaIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101783008663-01mjfjntc6dk01nu9durn3no4mo6olg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

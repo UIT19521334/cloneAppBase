@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CloneAppBase</string>
+    <string name="facebook_app_id">369930513749806</string>
+    <string name="fb_login_protocol_scheme">fb369930513749806</string>
+    <string name="api_key">AIzaSyCrv0NaokFm2pRcyT-T1M0_ON0ri5dy_NI</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="btn_call">Call</string>
+    <string name="btn_meeting">Meeting</string>
+    <string name="btn_task">Task</string>
+    <string name="add_widget">Add widget</string>
+    <string name="appwidget_incoming_activity_name">Incoming Activity</string>
+    <string name="app_widget_incoming_activity_description">See the plan for the next 7 days</string>
+    <string name="label_upcoming_activity_is_empty">No upcoming activities information.</string>
+    <string name="label_last_updated">Updated at </string>
+    <string name="appwidget_activity_quick_actions">Quick create activity</string>
+    <string name="msg_login_to_view_incoming_activity">Please login to view a activity information.</string>
+    <string name="btn_login">Login</string>
+    <string name="appwidget_ticket_waiting_process_title">Ticket waiting process</string>
+    <string name="configure_widget_processing_ticket">Configure Ticket waiting process</string>
+    <string name="app_widget_ticket_waiting_process_description">View your or your employees are ticket pending process.</string>
+    <string name="filter_increase_label">Increase</string>
+    <string name="filter_decrease_label">Decrease</string>
+    <string name="filter_by_mine_label">Mine</string>
+    <string name="filter_by_all_label">All</string>
+    <string name="label_processing_ticket_is_empty">Any information tickets that have not been recorded need to be processed.</string>
+    <string name="msg_login_to_view_processing_ticket">Please login to view a process ticket information.</string>
+    <string name="label_create_date">Created date</string>
+    <string name="label_priority">Priority</string>
+    <string name="label_filter_by">Filter by</string>
+    <string name="configure_widget_processing_ticket_note">If you want to change the selected configuration, please delete the current Widget and re-initialize it.</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">FNw7-V8OQKS5bXxvzlQ5wlKTRiXDpYsr8A_mD</string>
+</resources>

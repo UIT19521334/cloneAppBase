@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  CloudProSalesApp
+
+  Created by Margosh Le on 15/02/2022.
+  
+*/
+"ticket.empty.data" = "No data set!";
+"application.global.search" = "Enter your keyword";
+"application.activity.call" = "Call";
+"application.activity.meeting" = "Meeting";
+"application.activity.task" = "Task";
+"button.signin.label" = "Sign In";
+"button.search.label" = "Search...";
+"incoming.activity.title" = "Incoming Activity";
+"incoming.activity.description" = "See the plan for the next 7 days.";
+"incoming.activity.empty.label" = "No upcoming activities information.";
+"incoming.activity.login.description" = "Please login to view a activity information.";
+"processing.ticket.title" = "Ticket waiting process";
+"processing.ticket.description" = "View your or your employees are ticket pending process.";
+"processing.ticket.login.description" = "Please login to view a process ticket information.";
+"processing.ticket.empty.label" = "Any information tickets that have not been recorded need to be processed.";
+"quick.create.activity.title" = "Quick Create Activity";
+"quick.create.activity.description" = "Craete activity information quickly.";
+"widget.time.update.label" = "Update at ";
+"unkown.label" = "Uknown";
+"notifications.title" = "Notification";
+"notifications.description" = "See notifications of the latest from CloudproCRM at a glance";
+"notifications.login.description" = "Please login to view the notification";
+"notifications.empty.label" = "No notifications have been received.";
+"notifications.checkin.title" = "Check-in notifications";
+"notifications.checkin.description" = "See check-in notification of the latest from CloudproCRM at a glance";
+"notifications.checkin.login.description" = "Please login to view the notification";
+"notifications.checkin.empty.label" = "No check-in notifications have been received.";
+
